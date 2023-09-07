@@ -1,0 +1,34 @@
+\hypertarget{_castle_8h_source}{}\doxysection{Castle.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef CASTLE\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define CASTLE\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}Player.h"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_castle}{Castle}}\{}
+\DoxyCodeLine{12     \textcolor{keyword}{public}:}
+\DoxyCodeLine{13         \mbox{\hyperlink{class_castle}{Castle}}(\mbox{\hyperlink{class_player}{Player}}* player, sf::RenderWindow* window\_ptr, \textcolor{keywordtype}{int} num);}
+\DoxyCodeLine{14         \textcolor{keywordtype}{void} update();}
+\DoxyCodeLine{15         tuple<float,float> getDoorPosition();}
+\DoxyCodeLine{16         \textcolor{keywordtype}{bool} isCastleBuilt();}
+\DoxyCodeLine{17         \textcolor{keyword}{enum} name1\{P1, P2, HOMESCREENBACKGROUND, GAMEBACKGROUND, FLOE, BIRD, CRAB, FISH, CASTLE, SCORE, TEMPERATURE, DEFAULT\};}
+\DoxyCodeLine{18     \textcolor{keyword}{private}:}
+\DoxyCodeLine{19         vector<string>castleImages\{\textcolor{stringliteral}{"{}resources/house1.png"{}}, \textcolor{stringliteral}{"{}resources/house2.png"{}}, \textcolor{stringliteral}{"{}resources/house3.png"{}}, \textcolor{stringliteral}{"{}resources/house4.png"{}}, \textcolor{stringliteral}{"{}resources/house4.png"{}}, \textcolor{stringliteral}{"{}resources/house5.png"{}}, \textcolor{stringliteral}{"{}resources/house6.png"{}}, \textcolor{stringliteral}{"{}resources/house7.png"{}}, \textcolor{stringliteral}{"{}resources/house8.png"{}}, \textcolor{stringliteral}{"{}resources/house9.png"{}}, \textcolor{stringliteral}{"{}resources/house10.png"{}}, \textcolor{stringliteral}{"{}resources/house11.png"{}}, \textcolor{stringliteral}{"{}resources/house12.png"{}}, \textcolor{stringliteral}{"{}resources/house13.png"{}}, \textcolor{stringliteral}{"{}resources/house14.png"{}}, \textcolor{stringliteral}{"{}resources/house15.png"{}}, \textcolor{stringliteral}{"{}resources/house16.png"{}}\};}
+\DoxyCodeLine{20         vector<sf::Texture>textureVec[16];}
+\DoxyCodeLine{21         \textcolor{keywordtype}{int} numCloudsJumped;}
+\DoxyCodeLine{22         sf::Sprite castle\_;}
+\DoxyCodeLine{23         \mbox{\hyperlink{class_player}{Player}}* player\_;}
+\DoxyCodeLine{24         \textcolor{keywordtype}{float} doorX;}
+\DoxyCodeLine{25         sf::Texture castleTexture;}
+\DoxyCodeLine{26         sf::RenderWindow* window\_ptr;}
+\DoxyCodeLine{27 \};}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

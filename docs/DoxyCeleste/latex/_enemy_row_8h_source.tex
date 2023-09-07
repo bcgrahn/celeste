@@ -1,0 +1,38 @@
+\hypertarget{_enemy_row_8h_source}{}\doxysection{Enemy\+Row.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef ENEMYROW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define ENEMYROW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Player.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{class_enemy_row}{EnemyRow}}}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \mbox{\hyperlink{class_enemy_row}{EnemyRow}}(\textcolor{keywordtype}{int} rowE, vector<Player*>\& players, sf::RenderWindow* window, \textcolor{keywordtype}{int} enemyId);}
+\DoxyCodeLine{14     \textcolor{keywordtype}{void} update();}
+\DoxyCodeLine{15     \textcolor{keywordtype}{void} collision();}
+\DoxyCodeLine{16     sf::Sprite getEnemySprite();}
+\DoxyCodeLine{17     \textcolor{keywordtype}{float} numLives = 3;}
+\DoxyCodeLine{18     \textcolor{keywordtype}{string} orientation;}
+\DoxyCodeLine{19 \textcolor{keyword}{private}:}
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} rowNum;}
+\DoxyCodeLine{21     sf::RenderWindow* window\_ptr;}
+\DoxyCodeLine{22     sf::Texture enemy1;}
+\DoxyCodeLine{23     sf::Texture enemy2;}
+\DoxyCodeLine{24     sf::Texture enemy3;}
+\DoxyCodeLine{25     vector<sf::Sprite> skullEnemyVec;}
+\DoxyCodeLine{26     vector<sf::Sprite> flyingEnemyVec;}
+\DoxyCodeLine{27     vector<sf::Sprite> yellowEnemyVec;}
+\DoxyCodeLine{28     vector<Player*>* playerVec;}
+\DoxyCodeLine{29     \textcolor{keywordtype}{float} yPos;}
+\DoxyCodeLine{30     \textcolor{keywordtype}{float} firstXPos;}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \};}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// ENEMYROW\_H}}
+
+\end{DoxyCode}

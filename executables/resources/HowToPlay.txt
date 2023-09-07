@@ -1,0 +1,96 @@
+ Frostbite Bailey's (TM)
+                     ARCTIC ARCHITECT'S HANDBOOK
+
+                           Activision (R)
+
+
+The object of the game is to help Frostbite Bailey (TM) build igloos 
+by jumping on floating blocks of ice.  Be careful to avoid these 
+deadly hazards: clams, snowgeese, Alaskan king crab, grizzly polar 
+bears, and the rapidly dropping temperature.
+
+
+FROSTBITE (TM) BASICS
+
+1. Select game with game select switch.
+
+   Game 1 - Single Player      Game 2 - Two Players
+
+2. The Joystick Controller is held with the red button in the upper
+   left position.
+
+   * To move Frostbite Bailey left or right, move Joystick left or
+     right.
+
+   * He'll move up when you push the Joystick forward, and move down
+     when you pull it back.
+
+   * To reverse the direction of the ice floe [sic] you are standing
+     on, press the red button.  But remember, each time you do, your
+     igloo will lose a block, unless its completely built.
+
+3. Reserves.  You begin the game with one active Frostbite Bailey
+   (TM) and three on reserve.   With each increase of 5,000 points,
+   a bonus Frostbite is added to your reserves (up to a maximum of
+   nine).
+
+4. Frostbite gets lost each time he falls into the Arctic Sea, gets
+   chased away by a Polar Grizzly, or gets caught outside when the
+   temperature drops to zero.
+
+(Picture of the game)
+
+
+IGLOO CONSTRUCTION
+
+Building Codes.  Each time Frostbite Bailey (TM) jumps onto a white 
+ice floe, a "block" is added to the igloo.  Once jumped upon, the 
+white ice turns blue.  It can still be jumped on, but it won't add 
+points to your score or blocks to your igloo.  When all four rows are 
+blue, they turn white again.  The igloo is complete when the door 
+appears.  Frostbite may then jump into it.
+
+Work Hazards.  Avoid contact with Alaskan King Crabs, snow geese, and 
+killer clams, as they will push Frostbite Bailey into the fatal 
+Arctic Sea.  The Polar Grizzlies come out of hibernation at level 4 
+and, upon contact, will chase Frostbite right off-screen (note: 
+actually left off-screen:).
+
+
+SPECIAL FEATURES OF FROSTBITE
+
+Fresh Fish swim by regularly.  They are Frostbite's only food, and, 
+as such, are also additives to your score.  Catch 'em if you can.
+
+Night and Day.  Frostbite works the day shift and the night shift.  
+He must build four igloos per shift.
+
+A Magic Fish will appear near your score when you've racked up a 
+certain high number of points.  Watch for it!
+
+
+SCORING
+
+                                                         Points For
+Level                   Points per Iceblock            Entering Igloo
+---------------------------------------------------------------------
+  1                              10                          160
+  2                              20                          320
+  3                              30                          480
+  4                              40                          640
+  5                              50                          800
+  6                              60                          960
+  7                              70                         1120
+  8                              80                         1280
+  9                              90                         1440
+
+Scoring remains constant after the ninth level.
+
+* Fish are worth 200 points each.
+
+* Also, each degree remaining when Frostbite Bailey (TM) enters his 
+igloo will add points to your score as follows:
+
+                     10 * Degree * Level Number
+
+--- Atari 2600 Manual Archive, NGS3 ---

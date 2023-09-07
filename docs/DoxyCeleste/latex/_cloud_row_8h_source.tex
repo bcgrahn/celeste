@@ -1,0 +1,41 @@
+\hypertarget{_cloud_row_8h_source}{}\doxysection{Cloud\+Row.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef CLOUDROW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define CLOUDROW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Player.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{class_cloud_row}{CloudRow}}}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \mbox{\hyperlink{class_cloud_row}{CloudRow}}(\textcolor{keywordtype}{int} rowN, vector<Player*>\& players, sf::RenderWindow* window);}
+\DoxyCodeLine{14     \textcolor{keywordtype}{void} update();}
+\DoxyCodeLine{15     \textcolor{keywordtype}{void} collision();}
+\DoxyCodeLine{16     \textcolor{keywordtype}{void} changeDirection();}
+\DoxyCodeLine{17     \textcolor{keywordtype}{void} cloudsJumpedOn();}
+\DoxyCodeLine{18     \textcolor{keywordtype}{string} orientation;}
+\DoxyCodeLine{19 \textcolor{keyword}{private}:}
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} rowNum;}
+\DoxyCodeLine{21     sf::RenderWindow* window\_ptr;}
+\DoxyCodeLine{22     sf::Texture cloudU;}
+\DoxyCodeLine{23     sf::Texture cloudL;}
+\DoxyCodeLine{24     sf::Texture cloudP1;}
+\DoxyCodeLine{25     sf::Texture cloudP2;}
+\DoxyCodeLine{26     sf::Texture cloudP1Lower;}
+\DoxyCodeLine{27     vector<sf::Sprite> platCloudUpperVec;}
+\DoxyCodeLine{28     vector<sf::Sprite> platCloudLowerVec;}
+\DoxyCodeLine{29     vector<Player*>* playerVec;}
+\DoxyCodeLine{30     \textcolor{keywordtype}{float} yPos;}
+\DoxyCodeLine{31     \textcolor{keywordtype}{float} firstXPos;}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33     \textcolor{keywordtype}{float} speed;}
+\DoxyCodeLine{34 \};}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

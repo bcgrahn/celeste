@@ -1,0 +1,76 @@
+\hypertarget{_management_8h_source}{}\doxysection{Management.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef MANAGEMENT\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define MANAGEMENT\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <SFML/Audio.hpp>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Player.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}CloudRow.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}EnemyRow.h"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Castle.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}Temperature.h"{}}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }\mbox{\hyperlink{class_management}{Management}}}
+\DoxyCodeLine{13 \{}
+\DoxyCodeLine{14 \textcolor{keyword}{public}:}
+\DoxyCodeLine{15     \mbox{\hyperlink{class_management}{Management}}();}
+\DoxyCodeLine{16     \textcolor{keywordtype}{int} start();}
+\DoxyCodeLine{17     \textcolor{keywordtype}{void} gamePlayLogic();}
+\DoxyCodeLine{18     \textcolor{keywordtype}{void} keyPress();}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{private}:}
+\DoxyCodeLine{21     \textcolor{keyword}{const} \textcolor{keywordtype}{int} gameWidth = 1224; }
+\DoxyCodeLine{22     \textcolor{keyword}{const} \textcolor{keywordtype}{int} gameHeight = 726; }
+\DoxyCodeLine{23     \textcolor{keywordtype}{bool} isPlaying = \textcolor{keyword}{false};}
+\DoxyCodeLine{24     \textcolor{keywordtype}{bool} isTutorial = \textcolor{keyword}{false};}
+\DoxyCodeLine{25     \textcolor{keywordtype}{bool} singlePlayerMode = \textcolor{keyword}{false};}
+\DoxyCodeLine{26     \textcolor{keywordtype}{bool} doublePlayerMode = \textcolor{keyword}{false};}
+\DoxyCodeLine{27     \textcolor{keywordtype}{bool} pause = \textcolor{keyword}{false};}
+\DoxyCodeLine{28     \textcolor{keywordtype}{bool} dead = \textcolor{keyword}{false};}
+\DoxyCodeLine{29     \textcolor{keywordtype}{float} yTut = 727.f;}
+\DoxyCodeLine{30     \textcolor{keyword}{const} \textcolor{keywordtype}{float} baileySpeed = 10.f;}
+\DoxyCodeLine{31     \textcolor{comment}{//Sounds}}
+\DoxyCodeLine{32     sf::SoundBuffer introSoundBuffer;}
+\DoxyCodeLine{33     sf::SoundBuffer jumpSoundBuffer;}
+\DoxyCodeLine{34     sf::SoundBuffer gameSoundBuffer;}
+\DoxyCodeLine{35     sf::SoundBuffer outroSoundBuffer;}
+\DoxyCodeLine{36     sf::SoundBuffer deathSoundBuffer;}
+\DoxyCodeLine{37     sf::Sound* jumpSound;}
+\DoxyCodeLine{38     sf::Sound* deathSound;}
+\DoxyCodeLine{39     sf::Sound* introSound;}
+\DoxyCodeLine{40     sf::Sound* outroSound;}
+\DoxyCodeLine{41     sf::Sound* gameSound;}
+\DoxyCodeLine{42     \textcolor{comment}{//Create window application}}
+\DoxyCodeLine{43     sf::RenderWindow* window;}
+\DoxyCodeLine{44     \textcolor{comment}{//Players}}
+\DoxyCodeLine{45     vector<Player*> playerVec;}
+\DoxyCodeLine{46     \mbox{\hyperlink{class_player}{Player}}* player1;}
+\DoxyCodeLine{47     \mbox{\hyperlink{class_player}{Player}}* player2;}
+\DoxyCodeLine{48     \textcolor{comment}{//temperature}}
+\DoxyCodeLine{49     sf::Text tempMessage;}
+\DoxyCodeLine{50     \textcolor{comment}{//font}}
+\DoxyCodeLine{51     sf::Font font;}
+\DoxyCodeLine{52     \textcolor{comment}{//CloudplatForms}}
+\DoxyCodeLine{53     vector<CloudRow*> cloudPlatVec;}
+\DoxyCodeLine{54     \textcolor{comment}{//Enemies}}
+\DoxyCodeLine{55     vector<EnemyRow*> enemyVec;}
+\DoxyCodeLine{56     \textcolor{comment}{//vector<EnemyRow*> EnemyBirdVec;}}
+\DoxyCodeLine{57     vector<EnemyRow*> EnemyYellowVec;}
+\DoxyCodeLine{58     \textcolor{comment}{//Castle pointers}}
+\DoxyCodeLine{59     \mbox{\hyperlink{class_castle}{Castle}}* castle1;}
+\DoxyCodeLine{60     \mbox{\hyperlink{class_castle}{Castle}}* castle2;}
+\DoxyCodeLine{61     \textcolor{comment}{//Winner message}}
+\DoxyCodeLine{62     \textcolor{keywordtype}{bool} win = \textcolor{keyword}{false};}
+\DoxyCodeLine{63     \textcolor{keywordtype}{string} gameStatus = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{64      sf::Clock tempClock;}
+\DoxyCodeLine{65      \mbox{\hyperlink{class_temperature}{Temperature}}* temperature;}
+\DoxyCodeLine{66     \textcolor{comment}{//enum for scale class}}
+\DoxyCodeLine{67     \textcolor{keyword}{enum} name \{P1, P2, HOMESCREENBACKGROUND, GAMEBACKGROUND, FLOE, BIRD, CRAB, FISH, CASTLE, SCORE, TEMPERATURE, DEFAULT\};}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69 \};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
