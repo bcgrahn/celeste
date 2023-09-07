@@ -1,14 +1,20 @@
 # FROSTBITE x CELESTE PROJECT
 
 **Authors:** Bryce Grahn, Sudheer Gowan
-**Institution:** School of Electrical & Information Engineering, University of the Witwatersrand, Private Bag 3, 2050, Johannesburg, South Africa
+**Institution:** School of Electrical & Information Engineering, University of the Witwatersrand, Johannesburg, South Africa
 **Date:** October 2022
+
+## Installation
+- clone the repo
+- navigate to executables folder
+- Run Frostbit.exe
 
 ## Abstract
 The purpose of this project is to design and implement a modified version of the Frostbite Atari game from 1983. It has been modified to the form of another video game named Celeste from 2018 [1]. This game has been programmed in C++ and uses SFML to display the game. This project has successfully implemented single and multiplayer versions of Frostbite Bailey, ice blocks, enemies, building an igloo, and a scoring system from the original Atari game. It also successfully deals with collisions between all objects, contains a splash-screen and tutorial screen with instructions, as well as end game and pause screens. Project outcomes have been fulfilled, and all basic functionality, four minor features, and both major features have been implemented. Test cases cover collisions, movement, death, importing of resources, etc. The game has been built using the 3 design layers which have been critically evaluated in this report.
 
 ![image](https://github.com/bcgrahn/celeste/assets/99645139/9f0e4658-1a4e-4e82-a7cb-2bbefec56136)
-![image](https://github.com/bcgrahn/celeste/assets/99645139/6ffdfd6e-377e-456f-b9b1-b295bc0b38f0)
+![image](https://github.com/bcgrahn/celeste/assets/99645139/3534f31e-8203-4289-9a04-ba9c938464a5)
+
 
 ## 1. INTRODUCTION
 Frostbite was developed in 1983, and this project is an updated version of the original game created. Though keeping true to the original physics, the project is now a keyboard-driven game. It has been programmed in C++ and makes use of different structures in SFML to display the game. This project bridges the gap between old Atari-based games and current platform video games by presenting itself in the form of Celeste [2] from 2018. It successfully implemented the players, enemies, ice blocks - which are shown as clouds, building an igloo – which is shown as a cabin, as well as successfully dealing with collisions between all objects.
